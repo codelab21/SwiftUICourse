@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50A85512A866C4B0029A324 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A85502A866C4B0029A324 /* ProductListView.swift */; };
+		E50A85532A866C670029A324 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A85522A866C670029A324 /* ProductDetailView.swift */; };
+		E50A85552A866C7C0029A324 /* NavigationLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A85542A866C7C0029A324 /* NavigationLinkView.swift */; };
+		E50A85572A866CB70029A324 /* Prodcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A85562A866CB70029A324 /* Prodcuts.swift */; };
 		E53FF7FB2A8512020050BF7D /* SwiftUICourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FF7FA2A8512020050BF7D /* SwiftUICourseApp.swift */; };
 		E53FF7FD2A8512020050BF7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53FF7FC2A8512020050BF7D /* ContentView.swift */; };
 		E53FF7FF2A8512040050BF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53FF7FE2A8512040050BF7D /* Assets.xcassets */; };
 		E53FF8022A8512040050BF7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53FF8012A8512040050BF7D /* Preview Assets.xcassets */; };
+		E5861BC32A88D86F00519902 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5861BC22A88D86F00519902 /* ButtonsView.swift */; };
 		E5D774382A864BA100A9D734 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D774372A864BA100A9D734 /* SideBar.swift */; };
 		E5D7743A2A864BB900A9D734 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D774392A864BB900A9D734 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50A85502A866C4B0029A324 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		E50A85522A866C670029A324 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		E50A85542A866C7C0029A324 /* NavigationLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkView.swift; sourceTree = "<group>"; };
+		E50A85562A866CB70029A324 /* Prodcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prodcuts.swift; sourceTree = "<group>"; };
 		E53FF7F72A8512020050BF7D /* SwiftUICourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53FF7FA2A8512020050BF7D /* SwiftUICourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICourseApp.swift; sourceTree = "<group>"; };
 		E53FF7FC2A8512020050BF7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E53FF7FE2A8512040050BF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53FF8012A8512040050BF7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E5861BC22A88D86F00519902 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		E5D774372A864BA100A9D734 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		E5D774392A864BB900A9D734 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +46,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50A854D2A866BFF0029A324 /* NavigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				E50A854E2A866C1A0029A324 /* ViewModel */,
+				E50A854F2A866C220029A324 /* Views */,
+			);
+			path = NavigationLink;
+			sourceTree = "<group>";
+		};
+		E50A854E2A866C1A0029A324 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E50A85562A866CB70029A324 /* Prodcuts.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E50A854F2A866C220029A324 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E50A85502A866C4B0029A324 /* ProductListView.swift */,
+				E50A85522A866C670029A324 /* ProductDetailView.swift */,
+				E50A85542A866C7C0029A324 /* NavigationLinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E53FF7EE2A8512020050BF7D = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +92,11 @@
 		E53FF7F92A8512020050BF7D /* SwiftUICourse */ = {
 			isa = PBXGroup;
 			children = (
-				E5D774352A864B6200A9D734 /* Main */,
 				E53FF7FA2A8512020050BF7D /* SwiftUICourseApp.swift */,
+				E53FF7FC2A8512020050BF7D /* ContentView.swift */,
+				E5D774352A864B6200A9D734 /* Main */,
+				E50A854D2A866BFF0029A324 /* NavigationLink */,
+				E5861BC12A88D85B00519902 /* Buttons */,
 				E53FF7FE2A8512040050BF7D /* Assets.xcassets */,
 				E53FF8002A8512040050BF7D /* Preview Content */,
 			);
@@ -71,11 +111,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E5861BC12A88D85B00519902 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E5861BC22A88D86F00519902 /* ButtonsView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		E5D774352A864B6200A9D734 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				E5D774362A864B7D00A9D734 /* ViewModel */,
-				E53FF7FC2A8512020050BF7D /* ContentView.swift */,
 				E5D774372A864BA100A9D734 /* SideBar.swift */,
 			);
 			path = Main;
@@ -163,6 +210,11 @@
 				E53FF7FD2A8512020050BF7D /* ContentView.swift in Sources */,
 				E5D774382A864BA100A9D734 /* SideBar.swift in Sources */,
 				E53FF7FB2A8512020050BF7D /* SwiftUICourseApp.swift in Sources */,
+				E50A85552A866C7C0029A324 /* NavigationLinkView.swift in Sources */,
+				E50A85572A866CB70029A324 /* Prodcuts.swift in Sources */,
+				E5861BC32A88D86F00519902 /* ButtonsView.swift in Sources */,
+				E50A85512A866C4B0029A324 /* ProductListView.swift in Sources */,
+				E50A85532A866C670029A324 /* ProductDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

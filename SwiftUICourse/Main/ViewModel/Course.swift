@@ -21,6 +21,8 @@ class CourseViewModel: ObservableObject {
     }
     
     let CourseTutorials: [CourseTutorial] = [
-        CourseTutorial(name: "Navigation Link", destinationView: AnyView(Text("Navigation Link")))
+        CourseTutorial(name: "Navigation Link", destinationView: AnyView(NavigationLinkView())),
+        CourseTutorial(name: "Button", destinationView: AnyView(ButtonsView())),
+
     ]
 }
